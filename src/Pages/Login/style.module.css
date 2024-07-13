@@ -67,18 +67,28 @@
   height: 50px;
   margin-top: 2rem;
 }
-.content .LoginForm button {
+.content .LoginForm .button {
   width: 100%;
   height: 100%;
+  bottom: 1rem;
   border-radius: 1rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.7em;
   font-weight: 400;
+  display: grid;
+  place-items: center;
   background: #9EE37D;
 }
-.content .LoginForm button:hover {
+.content .LoginForm .button:hover {
   background: #358600;
   color: #CFFCFF;
+}
+
+.content .LoginForm p {
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 1.3em;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.module.css.map */
